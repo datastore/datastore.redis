@@ -34,7 +34,8 @@ setup(
     'redis',
   ],
   packages=packages,
-  install_requires=['datastore>=0.3.0', 'redis>=2.7.2'],
+  namespace_packages=['datastore'],
+  install_requires=['datastore>=0.3.3', 'redis>=2.7.2'],
   test_suite='datastore.redis.test',
   license='MIT License',
   classifiers=[

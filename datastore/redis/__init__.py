@@ -1,5 +1,5 @@
 
-__version__ = '0.1.0'
+__version__ = '0.1.2'
 __author__ = 'Juan Batiz-Benet'
 __email__ = 'juan@benet.ai'
 __doc__ = '''
@@ -16,7 +16,7 @@ Tested with:
 #TODO: Implement TTL (and key configurations)
 
 
-import datastore
+import datastore.core
 
 
 class RedisDatastore(datastore.ShimDatastore):
