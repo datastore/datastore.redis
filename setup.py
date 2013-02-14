@@ -8,7 +8,7 @@ pkgname = 'datastore.redis'
 # gather the package information
 main_py = open('datastore/redis/__init__.py').read()
 metadata = dict(re.findall("__([a-z]+)__ = '([^']+)'", main_py))
-packages = filter(lambda p: p.startswith(pkgname), find_packages())
+packages = filter(lambda p: p.startswith('datastore'), find_packages())
 
 # convert the readme to pypi compatible rst
 try:
