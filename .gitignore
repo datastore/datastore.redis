@@ -5,5 +5,5 @@ dist
 .tm_properties
 pypi/
 .tox
-dump.rds
+dump.rdb
 venv/
